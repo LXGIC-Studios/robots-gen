@@ -1,0 +1,42 @@
+{
+  "name": "@lxgicstudios/robots-gen",
+  "version": "1.0.0",
+  "description": "Generate robots.txt with smart defaults. Block AI crawlers like GPTBot and ClaudeBot, add framework-specific rules for Next.js and Gatsby, configure staging environments, and reference sitemaps. Zero dependencies.",
+  "main": "dist/index.js",
+  "bin": {
+    "robots-gen": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "robots",
+    "robots-txt",
+    "robots-generator",
+    "seo",
+    "ai-crawler",
+    "gptbot",
+    "claudebot",
+    "web-crawlers",
+    "cli",
+    "nextjs",
+    "gatsby"
+  ],
+  "author": "LXGIC Studios",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lxgicstudios/robots-gen"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.2",
+    "typescript": "^5.3.0"
+  }
+}
